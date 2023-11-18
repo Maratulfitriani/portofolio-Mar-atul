@@ -14,12 +14,9 @@ body {
   animation: gradientText 2s infinite;
 }
 
-/* Styling for the navigation bar */
 .navbar {
 background-color: #000000;
-}
-
-/* Remove default list styles and make it horizontal */
+} 
 .nav-list {
 list-style-type: none;
 margin: 0;
@@ -27,22 +24,18 @@ padding: 0;
 display: flex;
 }
 
-/* Style for each navigation item */
 .nav-list li {
 margin-right: 20px;
 }
 
-/* Styling for links */
 .nav-list li a {
 color: white;
 text-decoration: none;
 }
 
-/* Change link color when hovered */
 .nav-list li a:hover {
 color: lightgrey;
 }
-
 
 header {
   background-color: #1b1870;
@@ -86,7 +79,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(../img/baground.jpg); /* Gantilah dengan path file gambar Anda */
+  background-image: url(../img/baground.jpg);
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -96,14 +89,13 @@ body {
   text-align: center;
 }
 
-.centered-image img {
-  width: 30%; /* Sesuaikan lebar gambar sesuai keinginan Anda */
-  border-radius: 30%; /* Membuat gambar menjadi lingkaran */
-  margin: 20px auto; /* Menempatkan gambar di tengah secara horizontal */
+.centered-image img 
+{
+  width: 30%; 
+  border-radius: 30%; 
+  margin: 20px auto;
   display: block;
 }
-
-/* ... CSS lainnya ... */
 
 @keyframes blink {
   0% {
@@ -118,7 +110,7 @@ body {
 }
 
 .blink-text {
-  animation: blink 1s infinite; /* Ubah '1s' sesuai dengan kecepatan berkedip yang Anda inginkan */
+  animation: blink 1s infinite;
 }
 
 
@@ -126,10 +118,8 @@ body {
   text-align: center;
 }
 
-/* ... CSS lainnya ... */
 #projects {
   text-align: center;
-  /* Tambahkan gaya lain yang Anda inginkan */
 }
 
 .project-container {
@@ -139,10 +129,10 @@ body {
 }
 
 .project {
-  width: 45%; /* Atur lebar proyek */
+  width: 45%;
   padding: 10px;
-  box-shadow: 0 0 4px rgba(94, 7, 86, 0.673); /* Efek bayangan */
-  margin: 10px; /* Tambahkan margin di antara proyek */
+  box-shadow: 0 0 4px rgba(94, 7, 86, 0.673); 
+  margin: 10px; 
   background-color: #ed4eff;
 }
 
